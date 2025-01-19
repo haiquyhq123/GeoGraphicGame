@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geographic Game</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <ul id = "nav-bar">
+        <li><a href="../GeographicGame.html">Home</a></li>
+        <li class="Game">Game
+        <ul class = "sub-vertical noDisplay">
+            <li><a href="#">Guess Name Of Country Through Picture</a></li>
+            <li><a href="#">Guess Capital Name of A Country</a></li>
+            <li><a href="#">Game Show</a></li>
+        </ul>
+        </li>
+    </ul>
+    <div class = "main-area">
+        <div class="game-area">
+            <h1>Guess Name Of Country Through Picture</h1>
+            <div class="img-area">
+                <img src="" class="img-tag">
+            </div>
+            <button class="random">Random</button>
+            <div class="answer">
+                <label class="radio-wrapper">
+                    <input type="radio" class="option-1" name="options" value="option1">
+                    <span class="radio-label">Option 1</span>
+                </label>
+                <label class="radio-wrapper">
+                    <input type="radio" class="option-2" name="options" value="option2">
+                    <span class="radio-label">Option 2</span>
+                </label>
+                <label class="radio-wrapper">
+                    <input type="radio" class="option-3" name="options" value="option3">
+                    <span class="radio-label">Option 3</span>
+                </label>
+                <label class="radio-wrapper">
+                    <input type="radio" class="option-4" name="options" value="option4">
+                    <span class="radio-label">Option 4</span>
+                </label>
+            </div>
+        </div>
+    </div>
+    
+    <script src="FetchApi.js"></script>
+</body>
+</html>
